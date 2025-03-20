@@ -44,107 +44,119 @@
             // 
             // lastNameTextBox
             // 
-            lastNameTextBox.Location = new Point(97, 69);
+            lastNameTextBox.Location = new Point(32, 75);
+            lastNameTextBox.Margin = new Padding(3, 4, 3, 4);
             lastNameTextBox.Name = "lastNameTextBox";
-            lastNameTextBox.Size = new Size(100, 23);
+            lastNameTextBox.PlaceholderText = "Фамилия";
+            lastNameTextBox.Size = new Size(132, 27);
             lastNameTextBox.TabIndex = 0;
-            lastNameTextBox.Text = "last name";
             // 
             // firstNameTextBox
             // 
-            firstNameTextBox.Location = new Point(97, 107);
+            firstNameTextBox.Location = new Point(32, 40);
+            firstNameTextBox.Margin = new Padding(3, 4, 3, 4);
             firstNameTextBox.Name = "firstNameTextBox";
-            firstNameTextBox.Size = new Size(100, 23);
+            firstNameTextBox.PlaceholderText = "Имя";
+            firstNameTextBox.Size = new Size(132, 27);
             firstNameTextBox.TabIndex = 1;
-            firstNameTextBox.Text = "firstNameTextBox";
             // 
             // middleNameTextBox
             // 
-            middleNameTextBox.Location = new Point(97, 159);
+            middleNameTextBox.Location = new Point(32, 110);
+            middleNameTextBox.Margin = new Padding(3, 4, 3, 4);
             middleNameTextBox.Name = "middleNameTextBox";
-            middleNameTextBox.Size = new Size(100, 23);
+            middleNameTextBox.PlaceholderText = "Отчество";
+            middleNameTextBox.Size = new Size(132, 27);
             middleNameTextBox.TabIndex = 2;
-            middleNameTextBox.Text = "middleNameTextBox";
             // 
             // disciplineNameTextBox
             // 
-            disciplineNameTextBox.Location = new Point(97, 243);
+            disciplineNameTextBox.Location = new Point(271, 75);
+            disciplineNameTextBox.Margin = new Padding(3, 4, 3, 4);
             disciplineNameTextBox.Name = "disciplineNameTextBox";
-            disciplineNameTextBox.Size = new Size(100, 23);
+            disciplineNameTextBox.PlaceholderText = "Название дисциплины";
+            disciplineNameTextBox.Size = new Size(132, 27);
             disciplineNameTextBox.TabIndex = 3;
-            disciplineNameTextBox.Text = "disciplineNameTextBox";
             // 
             // disciplineCodeTextBox
             // 
-            disciplineCodeTextBox.Location = new Point(97, 204);
+            disciplineCodeTextBox.Location = new Point(271, 40);
+            disciplineCodeTextBox.Margin = new Padding(3, 4, 3, 4);
             disciplineCodeTextBox.Name = "disciplineCodeTextBox";
-            disciplineCodeTextBox.Size = new Size(100, 23);
+            disciplineCodeTextBox.PlaceholderText = "Код дисциплины";
+            disciplineCodeTextBox.Size = new Size(132, 27);
             disciplineCodeTextBox.TabIndex = 4;
-            disciplineCodeTextBox.Text = "disciplineCodeTextBox";
             // 
             // dataGridView
             // 
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView.Location = new Point(358, 12);
+            dataGridView.Location = new Point(409, 16);
+            dataGridView.Margin = new Padding(3, 4, 3, 4);
             dataGridView.Name = "dataGridView";
-            dataGridView.Size = new Size(430, 118);
+            dataGridView.RowHeadersWidth = 51;
+            dataGridView.Size = new Size(491, 571);
             dataGridView.TabIndex = 5;
             // 
             // addButton
             // 
-            addButton.Location = new Point(133, 317);
+            addButton.Location = new Point(32, 168);
+            addButton.Margin = new Padding(3, 4, 3, 4);
             addButton.Name = "addButton";
-            addButton.Size = new Size(75, 23);
+            addButton.Size = new Size(86, 31);
             addButton.TabIndex = 6;
-            addButton.Text = "addButton";
+            addButton.Text = "Добавить";
             addButton.UseVisualStyleBackColor = true;
             addButton.Click += AddButton_Click;
             // 
             // editButton
             // 
-            editButton.Location = new Point(280, 317);
+            editButton.Location = new Point(167, 168);
+            editButton.Margin = new Padding(3, 4, 3, 4);
             editButton.Name = "editButton";
-            editButton.Size = new Size(75, 23);
+            editButton.Size = new Size(86, 31);
             editButton.TabIndex = 7;
-            editButton.Text = "editButton";
+            editButton.Text = "Изменить";
             editButton.UseVisualStyleBackColor = true;
             editButton.Click += EditButton_Click;
             // 
             // deleteButton
             // 
-            deleteButton.Location = new Point(411, 317);
+            deleteButton.Location = new Point(302, 168);
+            deleteButton.Margin = new Padding(3, 4, 3, 4);
             deleteButton.Name = "deleteButton";
-            deleteButton.Size = new Size(75, 23);
+            deleteButton.Size = new Size(86, 31);
             deleteButton.TabIndex = 8;
-            deleteButton.Text = "deleteButton";
+            deleteButton.Text = "Удалить";
             deleteButton.UseVisualStyleBackColor = true;
             deleteButton.Click += DeleteButton_Click;
             // 
             // sortByLastNameButton
             // 
-            sortByLastNameButton.Location = new Point(225, 380);
+            sortByLastNameButton.Location = new Point(32, 252);
+            sortByLastNameButton.Margin = new Padding(3, 4, 3, 4);
             sortByLastNameButton.Name = "sortByLastNameButton";
-            sortByLastNameButton.Size = new Size(75, 23);
+            sortByLastNameButton.Size = new Size(283, 31);
             sortByLastNameButton.TabIndex = 9;
-            sortByLastNameButton.Text = "sortByLastNameButton";
+            sortByLastNameButton.Text = "Отсортировать по Фамилии";
             sortByLastNameButton.UseVisualStyleBackColor = true;
             sortByLastNameButton.Click += SortByLastNameButton_Click;
             // 
             // sortByDisciplineCodeButton
             // 
-            sortByDisciplineCodeButton.Location = new Point(329, 380);
+            sortByDisciplineCodeButton.Location = new Point(32, 326);
+            sortByDisciplineCodeButton.Margin = new Padding(3, 4, 3, 4);
             sortByDisciplineCodeButton.Name = "sortByDisciplineCodeButton";
-            sortByDisciplineCodeButton.Size = new Size(75, 23);
+            sortByDisciplineCodeButton.Size = new Size(283, 31);
             sortByDisciplineCodeButton.TabIndex = 10;
-            sortByDisciplineCodeButton.Text = "sortByDisciplineCodeButton";
+            sortByDisciplineCodeButton.Text = "Отсортировать по коду дисциплины";
             sortByDisciplineCodeButton.UseVisualStyleBackColor = true;
             sortByDisciplineCodeButton.Click += SortByDisciplineCodeButton_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(sortByDisciplineCodeButton);
             Controls.Add(sortByLastNameButton);
             Controls.Add(deleteButton);
@@ -156,6 +168,7 @@
             Controls.Add(middleNameTextBox);
             Controls.Add(firstNameTextBox);
             Controls.Add(lastNameTextBox);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             FormClosing += Form1_FormClosing;
